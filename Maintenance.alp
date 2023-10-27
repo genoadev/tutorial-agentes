@@ -113,7 +113,7 @@ setTurbineLocation();]]></StartupCode>
 				<Variable Class="Parameter">
 					<Id>1696426177023</Id>
 					<Name><![CDATA[numeroHelicopteros]]></Name>
-					<X>-500</X><Y>140</Y>
+					<X>-540</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -136,8 +136,8 @@ setTurbineLocation();]]></StartupCode>
 				</Variable>
 				<Variable Class="CollectionVariable">
 					<Id>1680452658731</Id>
-					<Name><![CDATA[autoRequests]]></Name>
-					<X>-500</X><Y>100</Y>
+					<Name><![CDATA[requests]]></Name>
+					<X>-540</X><Y>120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -152,7 +152,7 @@ setTurbineLocation();]]></StartupCode>
 				<Variable Class="CollectionVariable">
 					<Id>1698253495025</Id>
 					<Name><![CDATA[locationsTurbinas]]></Name>
-					<X>-500</X><Y>500</Y>
+					<X>-540</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -174,7 +174,7 @@ setTurbineLocation();]]></StartupCode>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1680451888305</Id>
 					<Name><![CDATA[setTransportBase]]></Name>
-					<X>-300</X><Y>220</Y>
+					<X>-340</X><Y>200</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -187,7 +187,7 @@ setTurbineLocation();]]></StartupCode>
 					<ReturnType><![CDATA[Helicopter]]></ReturnType>
 					<Id>1680452704921</Id>
 					<Name><![CDATA[findTransport]]></Name>
-					<X>-300</X><Y>260</Y>
+					<X>-340</X><Y>240</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -207,7 +207,7 @@ return null;]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1698253316041</Id>
 					<Name><![CDATA[setTurbineLocation]]></Name>
-					<X>-300</X><Y>300</Y>
+					<X>-340</X><Y>280</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -223,7 +223,7 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1696427077861</Id>
 					<Name><![CDATA[statsTempoOperacaoDesgastado]]></Name>
-					<X>-500</X><Y>180</Y>
+					<X>-540</X><Y>240</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -244,7 +244,7 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1696427077881</Id>
 					<Name><![CDATA[statsTempoOperacaoNormal]]></Name>
-					<X>-500</X><Y>220</Y>
+					<X>-540</X><Y>280</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -265,7 +265,7 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1696523617036</Id>
 					<Name><![CDATA[statsTempoOperacao]]></Name>
-					<X>-500</X><Y>260</Y>
+					<X>-540</X><Y>320</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -286,7 +286,7 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1696523717480</Id>
 					<Name><![CDATA[statsTempoManutencao]]></Name>
-					<X>-500</X><Y>300</Y>
+					<X>-540</X><Y>360</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -307,7 +307,8 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1696876407687</Id>
 					<Name><![CDATA[statsEnergiaProduzidaNormal]]></Name>
-					<X>-500</X><Y>340</Y>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-780</X><Y>200</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -328,7 +329,8 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1696876427737</Id>
 					<Name><![CDATA[statsEnergiaProduzidaDesgastado]]></Name>
-					<X>-500</X><Y>380</Y>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-780</X><Y>240</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -349,7 +351,8 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1697806593741</Id>
 					<Name><![CDATA[statsEnergiaPerdidaDesgaste]]></Name>
-					<X>-500</X><Y>420</Y>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-780</X><Y>280</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -370,7 +373,8 @@ for (Turbine t : turbines){
     			<Statistics>
 					<Id>1697806626382</Id>
 					<Name><![CDATA[statsEnergiaPerdidaFalha]]></Name>
-					<X>-500</X><Y>460</Y>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
+					<X>-780</X><Y>320</Y>
 					<Label><X>15</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -413,71 +417,9 @@ for (Turbine t : turbines){
 
 			<EmbeddedObjects>
 				<EmbeddedObject>
-					<Id>1680449815187</Id>
-					<Name><![CDATA[center]]></Name>
-					<ExcludeFromBuild>true</ExcludeFromBuild>
-					<X>-300</X><Y>100</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[maintenance]]></PackageName>
-						<ClassName><![CDATA[MC]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[maintenance]]></PackageName>
-							<ClassName><![CDATA[MC]]></ClassName>
-							<ItemName><![CDATA[1680449815063]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InEnvironment>true</InEnvironment>	
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
 					<Id>1680450125279</Id>
 					<Name><![CDATA[turbines]]></Name>
-					<X>-300</X><Y>140</Y>
+					<X>-340</X><Y>120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -542,7 +484,7 @@ for (Turbine t : turbines){
 				<EmbeddedObject>
 					<Id>1697831082212</Id>
 					<Name><![CDATA[helicopters]]></Name>
-					<X>-300</X><Y>180</Y>
+					<X>-340</X><Y>160</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -624,7 +566,7 @@ for (Turbine t : turbines){
 				<Rectangle>
 					<Id>1698254613981</Id>
 					<Name><![CDATA[rectangle]]></Name>
-					<X>-100</X><Y>-100</Y>
+					<X>-200</X><Y>-100</Y>
 					<Label><X>10</X><Y>10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -637,7 +579,7 @@ for (Turbine t : turbines){
 					<LineColor/>
 					<LineMaterial>null</LineMaterial>
 					<LineStyle>SOLID</LineStyle>
-					<Width>1200</Width>
+					<Width>1400</Width>
 					<Height>800</Height>
 					<Rotation>0.0</Rotation>
 					<FillColor>-1</FillColor>
@@ -659,6 +601,7 @@ for (Turbine t : turbines){
     			<TimePlot>
 					<Id>1696876661505</Id>
 					<Name><![CDATA[plot]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>0</X><Y>1000</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
@@ -736,7 +679,7 @@ for (Turbine t : turbines){
     			<TimePlot>
 					<Id>1697457541405</Id>
 					<Name><![CDATA[plot1]]></Name>
-					<X>0</X><Y>1280</Y>
+					<X>0</X><Y>700</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -755,14 +698,14 @@ for (Turbine t : turbines){
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
 					<Width>460</Width>
-					<Height>260</Height>
+					<Height>270</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
 						<Width>380</Width>
-						<Height>170</Height>
+						<Height>140</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
@@ -770,7 +713,7 @@ for (Turbine t : turbines){
 					<Legend>
 						<Place>SOUTH</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>60</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -1692,14 +1635,13 @@ for (Turbine t : turbines){
 					<ShowLabel>true</ShowLabel>
 					<Properties Width="74" Height="30">
 						<EntryAction><![CDATA[this.horasOperacaoDesgastado = time();]]></EntryAction>
-						<ExitAction><![CDATA[//Distribution d = new Distribution("triangular(1,3,2)", 0.0, this);
-double energiaProduzida = (time() - this.horasOperacaoDesgastado) * 3;//* d.getValue();
-main.statsEnergiaProduzidaDesgastado.add(energiaProduzida);
+						<ExitAction><![CDATA[//double energiaProduzida = (time() - this.horasOperacaoDesgastado) * 3;
+//main.statsEnergiaProduzidaDesgastado.add(energiaProduzida);
 main.statsTempoOperacao.add(time() - this.horasOperacaoNormal);
 main.statsTempoOperacaoDesgastado.add(time() - this.horasOperacaoDesgastado);
 
-double energiaPerdida = ((time() - this.horasOperacaoNormal)*5 - (time() - this.horasOperacaoDesgastado) * 3);
-main.statsEnergiaPerdidaDesgaste.add(energiaPerdida);]]></ExitAction>
+//double energiaPerdida = ((time() - this.horasOperacaoNormal)*5 - (time() - this.horasOperacaoDesgastado) * 3);
+//main.statsEnergiaPerdidaDesgaste.add(energiaPerdida);]]></ExitAction>
 						<FillColor/>
 					</Properties>
 				</StatechartElement>
@@ -1714,9 +1656,8 @@ main.statsEnergiaPerdidaDesgaste.add(energiaPerdida);]]></ExitAction>
 					<Properties Width="100" Height="30">
 						<EntryAction><![CDATA[this.horasOperacaoNormal = time();]]></EntryAction>
 						<ExitAction><![CDATA[main.statsTempoOperacaoNormal.add(time() - this.horasOperacaoTotal);
-//Distribution d = new Distribution("triangular(3,5,4)", 0.0, this);
-double energiaProduzida = (time() - this.horasOperacaoTotal) * 5;//* d.getValue();
-main.statsEnergiaProduzidaNormal.add(energiaProduzida);]]></ExitAction>
+//double energiaProduzida = (time() - this.horasOperacaoTotal) * 5;
+//main.statsEnergiaProduzidaNormal.add(energiaProduzida);]]></ExitAction>
 						<FillColor>-6632142</FillColor>
 					</Properties>
 				</StatechartElement>
@@ -1732,8 +1673,8 @@ main.statsEnergiaProduzidaNormal.add(energiaProduzida);]]></ExitAction>
 						<EntryAction><![CDATA[sendRequest();
 this.horasManutencaoTotal = time();]]></EntryAction>
 						<ExitAction><![CDATA[main.statsTempoManutencao.add(time() - this.horasManutencaoTotal);
-double energiaPerdida = ((time() - this.horasOperacaoNormal)*5);
-main.statsEnergiaPerdidaFalha.add(energiaPerdida);]]></ExitAction>
+//double energiaPerdida = ((time() - this.horasOperacaoNormal)*5);
+//main.statsEnergiaPerdidaFalha.add(energiaPerdida);]]></ExitAction>
 						<FillColor>-65536</FillColor>
 					</Properties>
 				</StatechartElement>
@@ -1860,7 +1801,7 @@ if(t!=null){
 	t.request = req;
 	send(req, t);
 }else{
-	main.autoRequests.addLast(req);
+	main.requests.addLast(req);
 }]]></Body>
 				</Function>
 			</Functions>
@@ -2527,13 +2468,13 @@ request = null;]]></Action>
 					</Points>
 					<IconOffset>20.0</IconOffset>
 					<Properties Source="1697831185479" Target="1697831185472" Trigger="timeout">
-						<Action><![CDATA[request = main.autoRequests.removeFirst();
+						<Action><![CDATA[request = main.requests.removeFirst();
 moveTo(request.turbine);]]></Action>
 						<Timeout Class="CodeUnitValue">
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="TimeUnits"><![CDATA[HOUR]]></Unit>
 						</Timeout>
-						<Condition><![CDATA[!main.autoRequests.isEmpty()]]></Condition>
+						<Condition><![CDATA[!main.requests.isEmpty()]]></Condition>
 						<Rate Class="CodeUnitValue">
 							<Code><![CDATA[1]]></Code>
 							<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
@@ -2800,14 +2741,14 @@ moveTo(request.turbine);]]></Action>
 	//mediasScheduledMain.put(root.numeroCaminhoes, new StatisticsDiscrete());
 	tempoTotalPerdido.put(root.numeroHelicopteros, new StatisticsDiscrete());
 	tempoTotalProduzindo.put(root.numeroHelicopteros, new StatisticsDiscrete());
-	energiaPerdidaDesgaste.put(root.numeroHelicopteros, new StatisticsDiscrete());
-	energiaPerdidaFalha.put(root.numeroHelicopteros, new StatisticsDiscrete());
+	//energiaPerdidaDesgaste.put(root.numeroHelicopteros, new StatisticsDiscrete());
+	//energiaPerdidaFalha.put(root.numeroHelicopteros, new StatisticsDiscrete());
 }
 
 //mediasScheduledMain.get(root.numeroCaminhoes).add(root.statsEsperaScheduledService.mean());
 tempoTotalPerdido.get(root.numeroHelicopteros).add(root.statsTempoManutencao.mean());
 tempoTotalProduzindo.get(root.numeroHelicopteros).add(root.statsTempoOperacao.mean());
-energiaPerdidaFalha.get(root.numeroHelicopteros).add(root.statsEnergiaPerdidaFalha.mean());]]></AfterSimulationRunCode>
+//energiaPerdidaFalha.get(root.numeroHelicopteros).add(root.statsEnergiaPerdidaFalha.mean());]]></AfterSimulationRunCode>
 			<SeedValue>1</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
@@ -2846,6 +2787,7 @@ energiaPerdidaFalha.get(root.numeroHelicopteros).add(root.statsEnergiaPerdidaFal
 				<Variable Class="CollectionVariable">
 					<Id>1697806397846</Id>
 					<Name><![CDATA[energiaPerdidaDesgaste]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>60</X><Y>300</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -2861,6 +2803,7 @@ energiaPerdidaFalha.get(root.numeroHelicopteros).add(root.statsEnergiaPerdidaFal
 				<Variable Class="CollectionVariable">
 					<Id>1697807188071</Id>
 					<Name><![CDATA[energiaPerdidaFalha]]></Name>
+					<ExcludeFromBuild>true</ExcludeFromBuild>
 					<X>60</X><Y>330</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
